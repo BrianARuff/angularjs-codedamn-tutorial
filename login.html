@@ -1,0 +1,14 @@
+<div class="flexbox" ng-controller="loginCtrl">
+  <form action="/" id="myLogin">
+    <h4 style="color: #f00" ng-click="removeErrorMessage($event)" ng-if="invalidCredentials">Invalid Credentials</h4>
+    <div>
+      <p>Username</p>
+      <input autocomplete="true" type="text" id="username" ng-model="username"> <br>
+    </div>
+    <div>
+      <p>Password</p>
+      <input autocomplete="true" type="password" id="password" ng-model="password"> <br>
+    </div>
+    <button type="button" ng-click="submit($event)">Login</button>
+  </form>
+</div>

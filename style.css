@@ -1,0 +1,34 @@
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 700px;
+  margin: 0 auto;
+}
+
+.flexbox p {
+  font-weight: bold;
+  min-width: 700px;
+}
+
+.flexbox input {
+  margin: 5px 0;
+  width: 100%;
+  height: 20px;
+}
+
+.flexbox input:last-of-type {
+  margin-bottom: 20px;
+}
+
+.flexbox button {
+  width: 100%;
+  background: green;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
